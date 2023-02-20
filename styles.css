@@ -1,0 +1,26 @@
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    align-items: center;
+    height: 600px;
+    width: 600px;
+    border: 1px solid;
+    border-color: black;
+    gap: 1px;
+}
+
+.item {
+    display: flex;
+    border: 1px solid;
+    border-color: black;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.item span{
+    font-size: 64px;
+}
