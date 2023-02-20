@@ -21,6 +21,11 @@
     cursor: pointer;
 }
 
+.item span:hover{
+    transform: rotate(45deg);
+    animation: 3s linear 1s;
+}
+
 .item span{
     font-size: 64px;
 }
