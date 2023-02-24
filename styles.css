@@ -29,3 +29,12 @@
 .item span{
     font-size: 64px;
 }
+
+.top{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    height: 45px;
+    align-items: center;
+    justify-content: space-between;
+}
